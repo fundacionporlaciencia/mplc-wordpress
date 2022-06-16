@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .highlight {
+        position: relative;
+        display: inline-block;
+        background-color: yellow;
+        transform: scale(1.5) rotate(-2deg) skew(-20deg);
+      }
+
+      .highlight > * {
+        display: inherit;
+        transform: scale(0.7) rotate(2deg) skew(20deg);
+      }
+    </style>
+
+    <span class="highlight">
+      <span>www.malgol.com</span>
+    </span>
+  </body>
+</html>
